@@ -1,47 +1,45 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
+# General
 .DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-migrate_working_dir/
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
+# Flutter/Dart/Pub
+packages/
 .pub/
-/build/
+.pub-cache/
+pubspec.lock
+.dart_tool/
 
-# Web related
-lib/generated_plugin_registrant.dart
+# Android
+**/android/**/build/
+**/android/.gradle/**/android/local.properties
 
-# Symbolication related
-app.*.symbols
+# iOS
+**/ios/**/GeneratedPluginRegistrant.h
+**/ios/**/GeneratedPluginRegistrant.m
+**/ios/**/*.mode1v3**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3**/ios/**/*.xccheckout
+**/ios/**/*.xcuserstate**/ios/**/xcuserdata/**/ios/**/Pods/**/ios/.generated/
+**/ios/.symlinks/**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework**/ios/Flutter/flutter_assets/**/ios/Flutter/flutter_export_environment.sh**/ios/Flutter/flutter_podhelper.rb
+**/ios/ServiceDefinitions.json**/ios/Runner/Base.lproj/LaunchScreen.storyboardc/
+**/ios/Runner/Base.lproj/Main.storyboardc/**/ios/Runner/**/GeneratedPluginRegistrant.h**/ios/Runner/**/GeneratedPluginRegistrant.m
 
-# Obfuscation related
-app.*.map.json
+# macOS**/macos/**/Flutter/ephemeral/**/macos/**/Flutter/flutter_assets/**/macos/.android/
+**/macos/Podfile.lock**/macos/Pods/
+.cidata
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# Web
+**/web/**/build/
+**/web/**/.last_build_id
+**/web/**/.dart_tool/
+
+# Windows
+**/windows/**/build/
+**/windows/**/GeneratedFiles/
+**/windows/**/GeneratedSources/
+**/windows/.regcache/
+
+# Others*.lock
+*.iml*.log
+*.swp

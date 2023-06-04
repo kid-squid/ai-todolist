@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Users\Dell Precision 5510\Desktop\ai-todolist\build\windows\CMakeFiles\b0652907b18616db1114c43f51ae02ec\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Users\Dell Precision 5510\Desktop\ai-todolist\build\windows\CMakeFiles\b7c0dd017d12192783bee11602bac419\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Users\Dell Precision 5510\Desktop\ai-todolist\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Users\Dell Precision 5510\Desktop\ai-todolist\build\windows\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D067C155-74B9-3F4F-8B5F-C7A86F0E4F9F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
